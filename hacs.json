@@ -1,6 +1,6 @@
 {
-  "name": "Tuya WiFi Scanner",
+  "name": "Inkbird Wifi",
   "content_in_root": false,
-  "domains": ["tuya_wifi_scanner"],
+  "domains": ["inkbird_wifi"],
   "iot_class": "local_polling"
 }
