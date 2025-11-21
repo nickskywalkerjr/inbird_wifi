@@ -1,4 +1,4 @@
-"""Tuya WiFi Scanner integration."""
+"""ink bird_wifi integration."""
 import logging
 
 from homeassistant.config_entries import ConfigEntry
@@ -6,11 +6,11 @@ from homeassistant.core import HomeAssistant
 
 _LOGGER = logging.getLogger(__name__)
 
-DOMAIN = "tuya_wifi_scanner"
+DOMAIN = "ink bird_wifi"
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
-    """Set up Tuya WiFi Scanner from a config entry."""
+    """From Tuya WiFi Scanner config entry."""
     hass.data.setdefault(DOMAIN, {})
     
     # Store the scan results
